@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(10, 26, 46);
+}
+.Main_Area {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 54px;
+}
+.Main_Title {
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 1.6px;
+    font-weight: bold;
+    text-align: center;
+    background: #1e9cb9;
+    height: 28px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.underLine {
+    color: red;
+    height: 3px;
+    background: #499736;
+    border-style: none;
+    width: 428px;
+    position: relative;
+    left: -1px;
+    right: 21px;
+}
+.AddTask_Area {
+    position: relative;
+    top: -20px;
+    left: 25px;
+    width: 400px;
+    background-color: #c7c4c4cc;
+    padding-left: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    border-color: grey;
+    border-width: 0px;
+    color: rgb(71, 71, 71);
+    margin-top:10px;
+}
+.AddTask_Button {
+    background-color: #288500;
+    position: absolute;
+    height: 56px;
+    width: 56px;
+    border-width: 0;
+    z-index: 1;
+    border-radius: 50%;
+    top: 130px;
+    left: 836px;
+}
+.task_Container {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 60px;
+    margin-left: 30px;
+    
+}
+.AddTask_Button:hover{
+    background-color: #206901;
+    border-radius: 48%;
+}
+.task:hover{
+    background-color: #bbb9b9cc;
+}
+.task{
+    background-color: #c7c4c4cc;
+    width: 450px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.Task_Title {
+    color: rgb(39, 39, 39);
+    font-size: 20px;
+    margin-left: 21px;
+    padding-top: 12px;
+    overflow: hidden;
+}
+.fa-solid:hover{
+    font-size: 20.1px;
+    color:gray !important;
+}
+.fa-solid {
+
+    border-width: 0;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    margin-right: 5px ;
+    position: relative;
+    top: -48px;
+    left: 380px;
+    
+}
+.delete{
+    background-color: rgb(102, 102, 102);
+    border-width: 0;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: -48px;
+    left: 390px;
+}
+
+.progressArea {
+    height: 80px;
+    background-color: #40758d;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.progressPar {
+    background-color: #34cf1700;
+    height: 60px;
+    width: 64px;
+    border-radius: 50%;
+    position: relative;
+    left: 14px;
+    top: 4px;
+    border-color: #00ff95;
+    border-width: 6px;
+    border-style: solid;
+}
+.ProgressPer {
+    color: white;
+    position: relative;
+    font-size: 20px;
+    left: 6px;
+    top: -2px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
